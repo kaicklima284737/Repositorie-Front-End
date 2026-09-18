@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --section1-- : rgba(59, 36, 88, 1);
+    --Title--: font-size: 40px;
+    --Font-style--: Roboto, arial, poppins;
+}
+
+.Inicio {
+    background-color: var(--section1--);
+    width: 100%;
+    min-width: 500px;
+    height: 100%;
+    min-height: 500px;
+    font-family: var(--Font-style--);
+}
+.seila {
+    font-size: 40px;
+    color: blueviolet;
+    display: flex;
+    align-self: flex-start;
+    align-items: flex-start;
+}
+.titulo {
+    display: flex;
+    align-self:flex-end ;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.navegacao {
+    display: flex;
+    align-items: flex-end;
+    align-self: center;
+    justify-content:space-evenly;
+    gap:20px;
+    
+}
+h1, h2, p, .navegacao{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+}
+#logo{
+    justify-content:flex-start;
+    padding: 5px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    border-radius: 5px;
+    border-bottom: 5px;
+}
+.btn:hover {
+    transform: scalex(1.1);
+    background-color:darkmagenta;
+}
