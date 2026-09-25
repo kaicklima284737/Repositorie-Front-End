@@ -5,6 +5,9 @@
     --Font-style--: Roboto, arial, poppins;
 }
 
+.html {
+    scroll-behavior: smooth;
+}
 .Inicio {
     background-color: var(--section1--);
     width: 100%;
@@ -12,6 +15,7 @@
     height: 100%;
     min-height: 500px;
     font-family: var(--Font-style--);
+    font-weight: 250;
 }
 .seila {
     font-size: 40px;
@@ -19,21 +23,27 @@
     display: flex;
     align-self: flex-start;
     align-items: flex-start;
+    font-weight: 550;
 }
 .titulo {
     display: flex;
-    align-self:flex-end ;
+    align-self:start ;
     justify-content: center;
     align-items: center;
-    padding: 0 10px;
+    align-self: center;
+    padding: 10px 10px;
 }
 
 .navegacao {
-    display: flex;
-    align-items: flex-end;
-    align-self: center;
-    justify-content:space-evenly;
     gap:20px;
+
+.secao {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    justify-self: end;
+}
     
 }
 h1, h2, p, .navegacao{
@@ -59,6 +69,7 @@ h1, h2, p, .navegacao{
     border-bottom: 5px;
 }
 .btn:hover {
-    transform: scalex(1.1);
+    transform: scalex(1.1) ;
+    transition-delay: 0.13s;
     background-color:darkmagenta;
 }
