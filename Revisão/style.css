@@ -5,46 +5,82 @@
     --Font-style--: Roboto, arial, poppins;
 }
 .html {
-    scroll-behavior: smooth;
-    
+    scroll-behavior: smooth;   
+}
+
+body {
+    font-family: var(--Font-style--);
+    line-height: 1.6;
 }
 
 .Inicio {
     background-color: var(--section1--);
-    width: 1440px;
-    min-height: (50%,647px);
+    padding: 0 8%;
+    min-height: 647px;
     color:white;
     font-size:large;
 }
 
 .navegacao {
-    padding: 20px 120px 20px 120px;
+    min-height: 100px;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
-.titulo{
-    display:flex;
-    align-self: flex-start;
-    justify-content: flex-start;
-    align-items: flex-end;
+.titulo {
+    font-size: 40px;
 }
 
-.secao {
+.links {
     display: flex;
-    gap: 100px;
-    align-self: flex-end;
-    justify-content: space-around;
-    align-items: flex-end;
+    gap:40px;
+    list-style: none;
 }
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.link a:hover {
+    color: #C5A7FF
+}
+
 
 .hero {
+    max-width: 650px;
+    margin: 100px 0 0;
+}
+
+.hero h2{
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.hero p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #E0D8E8;
+}
+
+.btn {
+    padding: 14px 25px;
+    border: none;
+    border-radius: 6px;
+    background-color: #A987E0;
+    color: #241633;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
     display: flex;
-    padding: 10% 10% 10% 10%;
-    font-size:larger;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
     align-self: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: #C5A7FF;
 }
