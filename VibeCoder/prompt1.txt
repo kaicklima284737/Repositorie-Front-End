@@ -1,0 +1,932 @@
+Item 1- Chat gpt
+Crie um prompt para uma lading page de futebol que será passado para o cloud com todos os detalhes gerais que deverão ter. Devera ser o mais completo possivel.
+
+Motivo do Uso: Traz a estrutura necessária para que eu possa editá-la da maneira que preferir.
+
+Resultado obtido:
+
+# PROMPT MASTER — LANDING PAGE PROFISSIONAL DE FUTEBOL
+
+## 1. PAPEL E OBJETIVO
+
+Atue como um desenvolvedor Front-End sênior, UI/UX Designer, especialista em design esportivo e otimização de conversão.
+
+Crie uma landing page de futebol com aparência profissional, identidade visual marcante, navegação intuitiva e funcionalidades reais.
+
+O resultado deve parecer um produto digital esportivo comercial, não um projeto genérico ou acadêmico.
+
+**Objetivos principais:**
+- Criar uma experiência visual imersiva.
+- Transmitir a emoção do futebol.
+- Destacar notícias, partidas e competições.
+- Facilitar o acesso a estatísticas e resultados.
+- Incentivar o usuário a explorar a plataforma.
+- Garantir excelente experiência mobile.
+- Entregar código organizado, funcional e executável.
+
+Não entregue apenas um conceito visual. Implemente a página completa.
+
+---
+
+## 2. CONCEITO E IDENTIDADE VISUAL
+
+Desenvolva uma plataforma digital dedicada ao universo do futebol.
+
+O site deverá reunir informações esportivas, partidas, notícias, estatísticas, clubes e competições em uma única experiência.
+
+### Identidade da marca
+
+Utilize temporariamente o nome **FOOTZONE**.
+
+O nome deverá aparecer no logotipo, cabeçalho, metadados e rodapé.
+
+A identidade visual deverá transmitir:
+- Competitividade.
+- Velocidade.
+- Paixão pelo esporte.
+- Modernidade.
+- Credibilidade jornalística.
+- Tecnologia e análise de desempenho.
+
+Crie um logotipo tipográfico original, acompanhado de um símbolo relacionado ao futebol.
+
+Não utilize marcas registradas como se fossem proprietárias da plataforma.
+
+### Paleta de cores
+
+Utilize uma identidade esportiva escura e sofisticada:
+
+- Fundo principal: `#080B10`.
+- Fundo secundário: `#101720`.
+- Cards: `#151E29`.
+- Verde esportivo: `#B6FF4A`.
+- Texto principal: `#F5F7FA`.
+- Texto secundário: `#9AA7B5`.
+- Bordas: `#283341`.
+- Vermelho para alertas: `#FF4D5A`.
+
+O verde deverá destacar ações e informações importantes.
+
+Evite utilizar todas as cores com a mesma intensidade.
+
+### Tipografia
+
+Utilize uma fonte moderna, legível e esportiva.
+
+Sugestões: Inter, Manrope ou Plus Jakarta Sans.
+
+Use:
+- Títulos grandes e expressivos.
+- Textos secundários discretos.
+- Números esportivos em destaque.
+- Hierarquia tipográfica consistente.
+- Espaçamento adequado entre elementos.
+
+---
+
+## 3. DIREÇÃO DE ARTE
+
+A página deverá combinar estética editorial esportiva com tecnologia.
+
+Use fotografias de futebol de alta qualidade, iluminação dramática e composições profissionais.
+
+Priorize imagens de:
+- Jogadores em ação.
+- Estádios lotados.
+- Gramados sob iluminação noturna.
+- Torcidas comemorando.
+- Disputas de bola.
+- Momentos decisivos das partidas.
+
+### Regras visuais
+
+1. Utilize imagens com boa resolução.
+2. Preserve a proporção original das fotografias.
+3. Aplique gradientes quando necessário.
+4. Garanta contraste suficiente para os textos.
+5. Evite imagens esticadas ou pixelizadas.
+6. Não utilize emojis como substitutos de ícones profissionais.
+7. Evite excesso de efeitos luminosos.
+8. Não transforme cada elemento em um card.
+9. Utilize espaços negativos para melhorar a composição.
+10. Mantenha consistência visual em toda a página.
+
+Utilize ícones SVG ou uma biblioteca consistente, como Lucide.
+
+Não dependa de imagens externas sem alternativas de carregamento.
+
+---
+
+## 4. ESTRUTURA COMPLETA DA LANDING PAGE
+
+Implemente as seguintes seções, respeitando a hierarquia visual.
+
+### SEÇÃO 1 — HEADER E NAVEGAÇÃO
+
+Crie um cabeçalho moderno e responsivo.
+
+Elementos obrigatórios:
+
+- Logotipo FOOTZONE.
+- Menu principal.
+- Campo ou botão de pesquisa.
+- Botão de favoritos.
+- Botão de perfil ou acesso.
+- Menu mobile funcional.
+
+Itens do menu:
+
+- Início.
+- Jogos.
+- Notícias.
+- Competições.
+- Times.
+- Estatísticas.
+
+### Comportamentos
+
+- O cabeçalho deve permanecer acessível durante a navegação.
+- Utilize fundo escuro com transparência discreta.
+- Aplique desfoque apenas quando visualmente apropriado.
+- Destaque a página selecionada.
+- Feche o menu mobile após selecionar uma opção.
+- Implemente rolagem suave para âncoras.
+- Evite links sem destino ou ações sem funcionamento.
+
+No celular, substitua o menu horizontal por uma navegação compacta.
+
+---
+
+### SEÇÃO 2 — HERO PRINCIPAL
+
+Esta é a seção visualmente mais importante.
+
+Crie um banner de abertura impactante, ocupando aproximadamente 70–85% da altura inicial da tela desktop.
+
+Utilize uma fotografia esportiva de fundo, com jogador em destaque e estádio iluminado.
+
+Aplique um gradiente escuro lateral para garantir legibilidade.
+
+### Conteúdo sugerido
+
+Selo superior:
+
+`O FUTEBOL EM OUTRO NÍVEL`
+
+Título principal:
+
+**A paixão pelo futebol.  
+Em cada detalhe.**
+
+Descrição:
+
+"Acompanhe partidas, descubra histórias e explore os números que definem o jogo."
+
+Botões:
+- Explorar partidas.
+- Últimas notícias.
+
+Inclua pequenos elementos informativos:
+- Próximo grande confronto.
+- Quantidade de competições acompanhadas.
+- Destaque editorial da semana.
+
+Essas informações devem ser reais ou identificadas como demonstrativas.
+
+### Comportamento visual
+
+- Título com hierarquia tipográfica forte.
+- Botão principal em verde esportivo.
+- Botão secundário discreto.
+- Entrada animada sutil dos elementos.
+- Fotografia com enquadramento responsivo.
+- Nenhuma animação deve prejudicar a leitura.
+
+No mobile, reorganize o conteúdo verticalmente.
+
+Não permita que textos fiquem sobre rostos ou elementos importantes.
+
+---
+
+### SEÇÃO 3 — PLACAR E PARTIDAS
+
+Crie uma área chamada "Central de Jogos".
+
+Ela deverá apresentar partidas recentes, jogos ao vivo e próximos confrontos.
+
+Utilize abas:
+
+- Ao vivo.
+- Hoje.
+- Próximos.
+- Encerrados.
+
+Cada partida deverá apresentar:
+
+- Escudos ou identificações dos clubes.
+- Nome dos times.
+- Placar, quando aplicável.
+- Horário local.
+- Competição.
+- Situação da partida.
+- Minuto atual, se estiver ao vivo.
+- Data do confronto.
+
+### Exemplo visual demonstrativo
+
+Flamengo 2 × 1 Palmeiras
+
+Brasileirão · Encerrado
+
+Esse confronto é apenas um exemplo visual. Não apresente resultados fictícios como informações atuais.
+
+### Interações obrigatórias
+
+- Alternar entre as abas.
+- Filtrar partidas por situação.
+- Destacar jogos ao vivo.
+- Abrir detalhes ao selecionar uma partida.
+- Mostrar mensagens quando não houver resultados.
+- Exibir carregamento durante consultas externas.
+
+Se não houver API esportiva configurada, utilize dados locais claramente identificados como demonstração.
+
+Nunca simule atualização em tempo real sem conexão real.
+
+---
+
+### SEÇÃO 4 — DESTAQUES EDITORIAIS
+
+Crie uma seção chamada "Em Campo".
+
+Apresente notícias e reportagens em uma composição editorial moderna.
+
+Inclua:
+- Uma notícia principal de destaque.
+- Três notícias secundárias.
+- Fotografias relacionadas.
+- Categoria editorial.
+- Título.
+- Resumo curto.
+- Data de publicação.
+- Tempo estimado de leitura.
+
+Exemplos de categorias:
+
+- Brasileirão.
+- Futebol Europeu.
+- Seleções.
+- Mercado da Bola.
+- Análise Tática.
+- Futebol Feminino.
+
+### Design
+
+A notícia principal deverá ocupar mais espaço.
+
+As notícias secundárias terão formatos menores.
+
+Utilize imagens com proporções consistentes.
+
+Os títulos devem ser objetivos e atraentes.
+
+### Funcionalidades
+
+- Abrir a notícia completa.
+- Filtrar por categoria.
+- Pesquisar títulos.
+- Exibir estado vazio quando necessário.
+- Permitir navegação por teclado.
+
+Se não houver backend editorial, crie conteúdo demonstrativo claramente identificado.
+
+Não invente fontes jornalísticas ou atribuições reais.
+
+---
+
+### SEÇÃO 5 — COMPETIÇÕES EM DESTAQUE
+
+Crie uma área com competições populares.
+
+Inclua exemplos como:
+
+- Brasileirão Série A.
+- Copa do Brasil.
+- UEFA Champions League.
+- Premier League.
+- La Liga.
+- Libertadores.
+- Futebol Feminino.
+
+Cada competição deverá apresentar:
+- Identidade visual.
+- Nome.
+- País ou abrangência.
+- Temporada.
+- Quantidade de equipes, se conhecida.
+- Botão para consultar detalhes.
+
+Não invente escudos oficiais.
+
+Quando utilizar marcas de competições, respeite seus direitos de uso.
+
+### Interações
+
+- Abrir detalhes da competição.
+- Consultar classificação.
+- Consultar partidas.
+- Filtrar por país ou categoria, quando aplicável.
+
+---
+
+### SEÇÃO 6 — CLASSIFICAÇÃO E ESTATÍSTICAS
+
+Crie um painel chamado "Os números do jogo".
+
+Inclua uma tabela de classificação demonstrativa.
+
+Colunas:
+- Posição.
+- Clube.
+- Pontos.
+- Jogos.
+- Vitórias.
+- Empates.
+- Derrotas.
+- Saldo de gols.
+
+Adicione indicadores complementares:
+- Melhor ataque.
+- Melhor defesa.
+- Maior sequência de vitórias.
+- Artilheiro da competição.
+
+### Requisitos
+
+- Cabeçalho da tabela claramente identificado.
+- Destaque visual para posições classificatórias.
+- Boa legibilidade em telas pequenas.
+- Ordenação por pontos e critérios configurados.
+- Possibilidade de visualizar informações adicionais.
+
+No mobile, utilize rolagem horizontal controlada ou uma versão compacta.
+
+Os números devem ser consistentes entre si.
+
+Identifique dados fictícios como demonstração.
+
+Não misture estatísticas inventadas com dados atuais.
+
+---
+
+### SEÇÃO 7 — TIMES EM DESTAQUE
+
+Crie uma seção para explorar clubes.
+
+Cada item deverá mostrar:
+- Identificação do clube.
+- Nome.
+- País.
+- Competição principal.
+- Indicadores resumidos.
+- Acesso aos detalhes.
+
+Permita:
+- Pesquisar clubes.
+- Filtrar por país.
+- Adicionar aos favoritos.
+- Remover favoritos.
+- Abrir perfil do clube.
+
+Armazene os favoritos localmente quando não houver backend.
+
+Apresente feedback visual após cada alteração.
+
+Não utilize dados pessoais sem necessidade.
+
+---
+
+### SEÇÃO 8 — ANÁLISES E CONTEÚDO TÁTICO
+
+Crie uma seção editorial para leitores interessados em análise de futebol.
+
+Inclua conteúdos como:
+- Análises pré-jogo.
+- Esquemas táticos.
+- Estatísticas de jogadores.
+- Comparações entre equipes.
+- Desempenho recente.
+- Tendências de jogo.
+
+Utilize gráficos simples quando houver dados suficientes.
+
+Cada gráfico deverá conter:
+- Título.
+- Legenda.
+- Unidades.
+- Identificação dos dados.
+- Contexto da comparação.
+
+Não apresente correlação como causalidade.
+
+Não crie gráficos sem dados consistentes.
+
+---
+
+### SEÇÃO 9 — EXPERIÊNCIA PERSONALIZADA
+
+Crie uma chamada para personalização.
+
+Título sugerido:
+
+**Seu futebol. Do seu jeito.**
+
+Descrição:
+
+"Escolha seus times favoritos e acompanhe o que realmente importa."
+
+Inclua:
+- Seleção de clubes favoritos.
+- Preferência por competições.
+- Personalização das notícias.
+- Acesso rápido aos próximos jogos.
+
+Se não existir sistema de contas, explique que as preferências serão salvas neste dispositivo.
+
+Implemente a persistência local quando apropriado.
+
+Não simule autenticação verdadeira.
+
+---
+
+### SEÇÃO 10 — NEWSLETTER
+
+Crie uma seção de inscrição.
+
+Título:
+
+**O jogo não acaba no apito.**
+
+Descrição:
+
+"Receba notícias, análises e destaques do futebol."
+
+Campos:
+- Nome opcional.
+- E-mail obrigatório.
+
+Botão:
+
+"Quero receber novidades"
+
+### Validação
+
+- Validar o formato do e-mail.
+- Exibir mensagens de erro acessíveis.
+- Impedir envios inválidos.
+- Mostrar confirmação após envio bem-sucedido.
+- Evitar submissões duplicadas.
+- Permitir navegação por teclado.
+
+Sem backend, não afirme que a inscrição foi efetivamente registrada.
+
+Utilize um estado demonstrativo claramente identificado.
+
+Não armazene e-mails silenciosamente.
+
+---
+
+### SEÇÃO 11 — RODAPÉ
+
+Crie um rodapé completo.
+
+Inclua:
+- Logotipo.
+- Breve descrição da plataforma.
+- Links institucionais.
+- Política de privacidade.
+- Termos de uso.
+- Contato.
+- Redes sociais.
+- Direitos autorais.
+- Aviso sobre dados demonstrativos.
+
+Organize os links em colunas.
+
+No mobile, reorganize as colunas verticalmente.
+
+Não invente endereços, perfis sociais ou contatos reais.
+
+Links indisponíveis deverão ser identificados adequadamente.
+
+---
+
+## 5. FUNCIONALIDADES GLOBAIS
+
+A página deverá implementar os seguintes recursos:
+
+### Pesquisa global
+
+Permita pesquisar:
+- Times.
+- Competições.
+- Notícias.
+- Partidas.
+
+Mostre resultados organizados por categoria.
+
+Inclua:
+- Estado de pesquisa vazia.
+- Mensagem de nenhum resultado.
+- Botão para limpar pesquisa.
+- Navegação acessível.
+
+Se a pesquisa não possuir backend, utilize o conteúdo local disponível.
+
+### Favoritos
+
+Permita favoritar times e competições.
+
+Armazene as escolhas em `localStorage`, quando apropriado.
+
+Restaure as preferências ao recarregar a página.
+
+Trate possíveis erros de acesso ao armazenamento.
+
+### Tema
+
+Implemente inicialmente o tema escuro.
+
+Se houver tema claro, garanta contraste adequado.
+
+Salve a preferência localmente.
+
+### Feedback visual
+
+Todas as ações devem fornecer retorno.
+
+Utilize:
+- Estados de carregamento.
+- Mensagens de sucesso.
+- Mensagens de erro.
+- Estados vazios.
+- Indicadores de foco.
+- Confirmações para ações relevantes.
+
+Evite alertas nativos desnecessários.
+
+### Navegação
+
+- Links devem funcionar.
+- Botões devem possuir ações reais.
+- Abas devem alterar o conteúdo.
+- Modais devem abrir e fechar.
+- Tecla Escape deve fechar modais.
+- O foco deve ser tratado adequadamente.
+
+Não crie elementos interativos apenas decorativos.
+
+---
+
+## 6. REQUISITOS TÉCNICOS
+
+Desenvolva a solução utilizando tecnologias simples e apropriadas.
+
+### Tecnologias preferenciais
+
+- HTML5 semântico.
+- CSS3.
+- JavaScript moderno.
+- Flexbox e CSS Grid.
+- SVG para ícones.
+- `localStorage` para preferências locais.
+
+Caso o ambiente do Claude já utilize React, Vite ou outro framework, respeite a estrutura existente.
+
+Não introduza dependências desnecessárias.
+
+### Organização sugerida
+
+```text
+footzone/
+├── index.html
+├── CSS/
+│   ├── reset.css
+│   ├── style.css
+│   └── responsive.css
+├── JS/
+│   ├── main.js
+│   ├── matches.js
+│   ├── news.js
+│   └── favorites.js
+├── assets/
+│   ├── img/
+│   └── icons/
+└── README.md
+```
+
+Essa estrutura é uma sugestão.
+
+Adapte-a ao ambiente de execução.
+
+Evite dividir excessivamente arquivos pequenos.
+
+Mantenha nomes claros e consistentes.
+
+### Qualidade do código
+
+- Utilize nomes descritivos.
+- Evite duplicação desnecessária.
+- Separe estrutura, estilo e comportamento.
+- Utilize funções pequenas e objetivas.
+- Valide entradas do usuário.
+- Trate falhas previsíveis.
+- Evite variáveis globais desnecessárias.
+- Comente apenas trechos que precisam de contexto.
+- Não utilize funções obsoletas.
+- Não adicione bibliotecas sem justificativa.
+
+O código deverá ser compreensível por estudantes iniciantes.
+
+Não utilize abstrações complexas sem necessidade.
+
+---
+
+## 7. RESPONSIVIDADE
+
+A landing page deverá funcionar em:
+
+- Celulares pequenos: 320–375 px.
+- Celulares convencionais: 376–430 px.
+- Tablets: 600–900 px.
+- Notebooks: 1024–1440 px.
+- Monitores grandes: acima de 1440 px.
+
+### Regras obrigatórias
+
+- Nenhuma rolagem horizontal global.
+- Imagens adaptáveis ao espaço disponível.
+- Textos sem cortes.
+- Botões com áreas de toque adequadas.
+- Menu mobile funcional.
+- Tabelas adaptadas.
+- Cards reorganizados automaticamente.
+- Espaçamento proporcional à tela.
+- Títulos com tamanhos responsivos.
+- Modais utilizáveis em telas pequenas.
+
+Utilize media queries quando necessário.
+
+Teste as larguras intermediárias também.
+
+Não trate responsividade como simples redução de escala.
+
+Redesenhe os componentes quando necessário.
+
+---
+
+## 8. ACESSIBILIDADE
+
+Implemente os fundamentos de acessibilidade.
+
+- HTML semântico.
+- Contraste adequado.
+- Textos alternativos para imagens relevantes.
+- Labels associados aos campos.
+- Navegação completa por teclado.
+- Estados de foco visíveis.
+- Botões com nomes acessíveis.
+- Mensagens de erro compreensíveis.
+- Hierarquia correta de títulos.
+- Uso adequado de atributos ARIA.
+- Respeito à preferência por movimento reduzido.
+
+Não dependa apenas de cores para transmitir informações.
+
+Não use elementos clicáveis sem semântica apropriada.
+
+---
+
+## 9. DESEMPENHO
+
+Otimize o carregamento inicial.
+
+- Comprima imagens.
+- Utilize formatos modernos quando disponíveis.
+- Defina dimensões para imagens.
+- Aplique carregamento tardio fora da área inicial.
+- Evite bibliotecas pesadas.
+- Minimize animações desnecessárias.
+- Evite múltiplas requisições redundantes.
+- Reduza mudanças inesperadas de layout.
+- Priorize o conteúdo principal.
+
+Não carregue vídeos pesados automaticamente.
+
+Não utilize animações que prejudiquem dispositivos modestos.
+
+---
+
+## 10. SEO E COMPARTILHAMENTO
+
+Configure os elementos básicos de SEO.
+
+Inclua:
+- Título da página.
+- Meta description.
+- Charset UTF-8.
+- Meta viewport.
+- Idioma `pt-BR`.
+- Favicon.
+- URLs e âncoras compreensíveis.
+- Hierarquia correta de títulos.
+- Open Graph básico.
+- Imagens com textos alternativos.
+
+Sugestão de título:
+
+"FOOTZONE — Notícias, Jogos e Estatísticas do Futebol"
+
+Sugestão de descrição:
+
+"Acompanhe partidas, notícias, competições e estatísticas do futebol em uma experiência esportiva completa."
+
+Não prometa informações ao vivo sem integração real.
+
+---
+
+## 11. INTEGRAÇÃO COM DADOS ESPORTIVOS
+
+Prepare a arquitetura para uma futura API.
+
+Considere dados de:
+- Partidas.
+- Resultados.
+- Classificações.
+- Competições.
+- Clubes.
+- Jogadores.
+- Estatísticas.
+- Notícias.
+
+### Regras fundamentais
+
+Não invente uma API.
+
+Não exponha chaves privadas no Front-End.
+
+Não apresente dados demonstrativos como reais.
+
+Separe dados, apresentação e lógica de interface.
+
+Centralize a configuração das integrações externas.
+
+Trate falhas de conexão e respostas incompletas.
+
+Mostre a data de atualização quando disponível.
+
+Se nenhuma API estiver configurada, mantenha a página funcional com dados demonstrativos claramente identificados.
+
+Não simule placares ao vivo com cronômetros artificiais.
+
+---
+
+## 12. ANIMAÇÕES E MICROINTERAÇÕES
+
+Utilize animações discretas e funcionais.
+
+Exemplos:
+- Transição suave entre abas.
+- Destaque de botões ao passar o cursor.
+- Entrada sutil dos elementos.
+- Realce de partidas ao vivo.
+- Feedback ao favoritar clubes.
+- Abertura suave de menus.
+- Mudanças discretas de estado.
+
+### Limitações
+
+Evite animações excessivas.
+
+Não atrase a interação principal.
+
+Não utilize efeitos que dificultem a leitura.
+
+Respeite a configuração de movimento reduzido.
+
+Não anime todos os elementos simultaneamente.
+
+---
+
+## 13. EXPERIÊNCIA DO USUÁRIO
+
+Priorize uma navegação clara.
+
+O visitante deve entender rapidamente:
+1. Qual é a proposta da plataforma.
+2. Onde consultar as partidas.
+3. Como encontrar notícias.
+4. Onde acompanhar competições.
+5. Como personalizar seus interesses.
+
+Evite menus excessivos.
+
+Evite textos longos em cards.
+
+Destaque as ações principais.
+
+Não esconda informações essenciais atrás de interações desnecessárias.
+
+A página deve funcionar sem cadastro obrigatório.
+
+---
+
+## 14. CRITÉRIOS DE ACEITAÇÃO
+
+Considere o projeto concluído somente quando:
+
+- [ ] Todas as seções estiverem implementadas.
+- [ ] O layout estiver visualmente consistente.
+- [ ] A navegação funcionar corretamente.
+- [ ] O menu mobile estiver funcional.
+- [ ] A pesquisa apresentar resultados.
+- [ ] As abas alterarem o conteúdo.
+- [ ] Os favoritos persistirem localmente.
+- [ ] Os formulários validarem os dados.
+- [ ] Os estados vazios estiverem implementados.
+- [ ] As imagens carregarem adequadamente.
+- [ ] Não houver rolagem horizontal indevida.
+- [ ] A página funcionar em dispositivos móveis.
+- [ ] Acessibilidade básica estiver contemplada.
+- [ ] Os dados demonstrativos estiverem identificados.
+- [ ] Não existirem botões sem funcionalidade.
+- [ ] Não existirem erros relevantes no console.
+- [ ] O projeto possuir instruções de execução.
+
+---
+
+## 15. PROCESSO DE IMPLEMENTAÇÃO
+
+Siga esta ordem de trabalho:
+
+### Etapa 1 — Estrutura
+
+Defina as seções e a arquitetura.
+
+### Etapa 2 — Design
+
+Implemente identidade visual e hierarquia.
+
+### Etapa 3 — Componentes
+
+Crie cards, abas, tabelas e menus.
+
+### Etapa 4 — Funcionalidades
+
+Implemente pesquisa, filtros e favoritos.
+
+### Etapa 5 — Responsividade
+
+Adapte todos os componentes às telas.
+
+### Etapa 6 — Acessibilidade
+
+Verifique teclado, contraste e semântica.
+
+### Etapa 7 — Validação
+
+Teste os fluxos principais e corrija falhas.
+
+### Etapa 8 — Entrega
+
+Apresente os arquivos completos e instruções.
+
+---
+
+## 16. INSTRUÇÕES FINAIS PARA O CLAUDE
+
+Antes de começar, examine os arquivos existentes.
+
+Se houver um projeto iniciado, preserve o que funciona.
+
+Não substitua arquivos sem necessidade.
+
+Se estiver trabalhando em um ambiente com visualização, execute o projeto e confira o resultado.
+
+Não considere o código concluído apenas porque compila.
+
+Verifique o funcionamento real dos componentes.
+
+Se algum requisito depender de serviço externo, identifique essa dependência.
+
+Não invente credenciais, resultados ou integrações.
+
+Não entregue pseudocódigo quando for possível implementar.
+
+Não omita arquivos necessários para execução.
+
+Não reduza a qualidade visual para simplificar o trabalho.
+
+Priorize uma experiência esportiva profissional, coerente e funcional.
+
+**RESULTADO ESPERADO:** uma landing page de futebol moderna, completa, responsiva, acessível e visualmente marcante, com funcionalidades reais, código organizado e possibilidade de evolução para uma plataforma esportiva completa.

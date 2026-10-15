@@ -6,15 +6,13 @@
 }
 .html {
     scroll-behavior: smooth;
-    font-family: var(--Font-style--);
-    inline-size: 1.6;
     
 }
 
 .Inicio {
     background-color: var(--section1--);
     width: 1440px;
-    height: 647px;
+    min-height: (50%,647px);
     color:white;
     font-size:large;
 }

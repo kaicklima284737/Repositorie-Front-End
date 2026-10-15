@@ -1,0 +1,6 @@
+Pedido: De acordo com o Prompt enviado (Prompt1.txt e alterações nas cores da paleta e alguns dados), crie cada funcionalidade e traga retorno. Não se deve inventar dados ou resultados, a troca da paleta de cores deverá ser suave.  
+
+Motivo do uso: Criação da primeira versão da lading page esperada.
+
+Resultado Obtido
+
