@@ -1,6 +1,49 @@
-Pedido: De acordo com o Prompt enviado (Prompt1.txt e alterações nas cores da paleta e alguns dados), crie cada funcionalidade e traga retorno. Não se deve inventar dados ou resultados, a troca da paleta de cores deverá ser suave.  
+Pedido: De acordo com o Prompt trazido (Prompt1.txt e alterações:
+nome: Ao inves de "FOOTZONE", mude para "EuSouOMilior" em todos os itens citados anteriormente.
+cores da paleta:
+Fundos — profundidade gradual
+Principal
+#080B10
+Secundário
+#0D131B
+Seções
+#101720
+Cards
+#151E29
+Verdes — identidade esportiva
+Escuro
+#7FB82D
+Principal
+#A4E83F
+Destaque
+#B6FF4A
+Brilho
+#D0FF85
+Textos — hierarquia visual
+Aa
+Principal
+#F5F7FA
+Aa
+Secundário
+#AAB5C2
+Aa
+Discreto
+#788697
+Bordas — separação sutil
+Discreta
+#1D2835
+Padrão
+#283341
+Destaque
+#39485A
+Alertas — intensidade controlada
+Suave
+#C93645
+
+Crie cada funcionalidade e traga retorno. Não se deve inventar dados ou resultados, a troca da paleta de cores deverá ser suave.  
 
 Motivo do uso: Criação da primeira versão da lading page esperada.
 
 Resultado Obtido
 
+https://claude.ai/artifact/W34ts43s7nWBf62DJqnTD1

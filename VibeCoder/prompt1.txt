@@ -645,6 +645,7 @@ Mantenha nomes claros e consistentes.
 - Comente apenas trechos que precisam de contexto.
 - Não utilize funções obsoletas.
 - Não adicione bibliotecas sem justificativa.
+- Use apenas Icones profissionais, e não emojis.
 
 O código deverá ser compreensível por estudantes iniciantes.
 

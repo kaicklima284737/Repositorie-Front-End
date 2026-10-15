@@ -1,0 +1,8 @@
+Pedido: Traga o código com as seguintes alterações:
+
+1. Encontre uma API responsavel por trazer os dados atuais da tabela de todas as principais competições esportivas acontecendo no mundo. Não é necessário trazer videos ou lives Ao vivos de jogos de futebol, mas traga todos os detalhes, como se fosse uma pesquisa de resultados no google.
+2. separe a formatação do código e faça com que crie um arquivo .env para ser adicionado a chave api e rodar o código inteiro puxando os dados dela. Caso use mais de uma API, traga o método de obtenção e para que ela serve
+3. Traga tambem uma API de nóticias relácionadas ao futebol, e crie um espaço separado para obtenção dos resultados.
+4. Crie um jogo básico para ser interativo e trazer atenção ao site. Além do jogo, faça animações suaves entre cada transição, e melhore o fundo trazendo uma imagem que remete ao futebol, podendo ser jogador, técnico ou etc.
+
+Motivo do pedido: A simulação anterior no prompt 2 lançada diretamente pelo cloude trazia dados ficticios e animações simples, que podiam ser melhoradas. a busca da API tambem se remete ao fato de precisar dela para trazer funcionalidades reais ao site.

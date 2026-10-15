@@ -3,6 +3,7 @@
     --section1-- : #3B2458;
     --Title--: font-size: 40px;
     --Font-style--: Roboto, arial, poppins;
+    --seaction2--: #0B0A12;
 }
 .html {
     scroll-behavior: smooth;   
@@ -12,6 +13,7 @@ body {
     font-family: var(--Font-style--);
     line-height: 1.6;
 }
+
 
 .Inicio {
     background-color: var(--section1--);
@@ -83,4 +85,56 @@ body {
 
 .btn:hover {
     background-color: #C5A7FF;
+}
+
+.servico {
+    background-color: var(--seaction2--);
+    min-width: (100%, 1440px);
+    min-height: (100%, 856px);
+    padding: 100px 120px 110px 120px;
+    min-height: 647px;
+    color:white;
+    font-size:large;
+    
+}
+.acima_do_titulo, .titulo_1, .descricao_servico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.acima_do_titulo {
+    font-size:small;
+    color: #A987E0;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.titulo_1 {
+    font-size:large;
+    color:white;
+    font-weight: 700;
+    ;
+}
+.descricao_servico {
+    font-size:medium;
+    color: #E0D8E8;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.box_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: #482995;
+    gap: 22px;
+    border-radius: 14px;
+    
+}
+
+.titulo_box {
+    padding: 10px;
+    display:flex;
+    align-items: start;
+    justify-content: start;
 }
