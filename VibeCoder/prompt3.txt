@@ -6,3 +6,20 @@ Pedido: Traga o código com as seguintes alterações:
 4. Crie um jogo básico para ser interativo e trazer atenção ao site. Além do jogo, faça animações suaves entre cada transição, e melhore o fundo trazendo uma imagem que remete ao futebol, podendo ser jogador, técnico ou etc.
 
 Motivo do pedido: A simulação anterior no prompt 2 lançada diretamente pelo cloude trazia dados ficticios e animações simples, que podiam ser melhoradas. a busca da API tambem se remete ao fato de precisar dela para trazer funcionalidades reais ao site.
+
+pedido: Consegue animar ainda mais a página, como exemplo o scrolling da página ser alguém no inicio chutando uma bola de futebol, e ir descendo a página para acompanhar as notícias
+
+motivo: Deixar a tela mais interativa.
+
+pedido: Melhore o jogador que irá chutar. Não deixe um png ou item parado. Pegue uma foto de um jogador e anime-a minimamente para que a animação de chutar fique interessante. Além disso, melhore a dinâmica que desce a bola, tornando-a mais interessante.
+
+motivo: animação do chute não estava interessante.
+Resultado: Atual.
+
+pedido: Agora é possivel manter tudo tirando apenas a bola rolando, criando uma animação personalizada, mas que não deixe estranho.
+
+motivo: animação bugada.
+
+Resultado: Atual.
+
+Criar o .env e adicionar as chaves apis. Para rodar, no terminal npm start.

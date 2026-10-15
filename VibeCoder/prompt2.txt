@@ -46,4 +46,4 @@ Motivo do uso: Criação da primeira versão da lading page esperada.
 
 Resultado Obtido
 
-https://claude.ai/artifact/W34ts43s7nWBf62DJqnTD1
+artifact do claude com a paginação inicial, usada como base pro prompt3.

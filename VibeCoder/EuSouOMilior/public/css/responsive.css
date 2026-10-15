@@ -1,0 +1,51 @@
+@media (max-width: 980px) {
+  .main-nav { gap: 15px; }
+  .main-nav a { font-size: .78rem; }
+  .header-cta { display: none; }
+  .hero-stat { bottom: 28px; }
+  .match-grid, .news-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .game-layout { gap: 30px; }
+  .competition-layout { grid-template-columns: 190px minmax(0, 1fr); gap: 15px; }
+  .competition-content { padding: 17px; }
+}
+@media (max-width: 700px) {
+  .container { width: min(100% - 32px, var(--max)); }
+  .nav-wrap { height: 68px; gap: 12px; }
+  .mobile-toggle { display: block; order: 3; }
+  .main-nav { display: none; position: absolute; top: 68px; left: 0; right: 0; padding: 14px 20px 20px; flex-direction: column; align-items: stretch; gap: 0; border-bottom: 1px solid var(--border); background: rgba(8,11,16,.98); }
+  .main-nav.open { display: flex; animation: riseIn .2s ease both; }
+  .main-nav a { padding: 12px 5px; font-size: .9rem; border-bottom: 1px solid var(--border-subtle); }
+  .hero { min-height: 620px; align-items: flex-start; }
+  .hero-image { background-position: 58% center; }
+  .hero-shade { background: linear-gradient(90deg, rgba(8,11,16,.96), rgba(8,11,16,.63)), linear-gradient(0deg, var(--bg), transparent 45%); }
+  .hero-content { padding: 80px 0 130px; }
+  .hero h1 { font-size: clamp(2.8rem, 13vw, 4.5rem); letter-spacing: -2.6px; }
+  .hero-content > p { font-size: .95rem; }
+  .hero-stat { right: 16px; bottom: 20px; left: 16px; }
+  .section { padding: 65px 0; }
+  .section-heading { align-items: flex-start; flex-direction: column; gap: 14px; }
+  .section-heading h2 { font-size: 2.25rem; }
+  .match-grid, .news-grid { grid-template-columns: 1fr; }
+  .competition-layout { grid-template-columns: 1fr; }
+  .competition-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .competition-choice { padding: 10px; font-size: .72rem; }
+  .competition-content { padding: 14px; }
+  .news-search { flex-direction: column; }
+  .news-search input { min-height: 48px; }
+  .news-search .button { width: 100%; }
+  .game-layout { grid-template-columns: 1fr; gap: 32px; }
+  .game-copy h2 { font-size: 2.8rem; }
+  .penalty-area { min-height: 320px; }
+  .closing-inner { flex-wrap: wrap; }
+  .closing-inner div { flex-basis: calc(100% - 60px); }
+  .closing-inner .button { width: 100%; }
+  .footer-inner { align-items: flex-start; flex-direction: column; gap: 10px; }
+  .footer-inner p { margin: 4px 0; }
+}
+@media (max-width: 380px) {
+  .brand { font-size: 1rem; gap: 7px; }
+  .brand-ball { width: 30px; height: 30px; }
+  .hero-actions .button { width: 100%; }
+  .filter { padding: 8px 10px; font-size: .72rem; }
+  .scoreboard { gap: 22px; }
+}

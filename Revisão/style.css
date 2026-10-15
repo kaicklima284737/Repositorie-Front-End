@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
-    --section1-- : #3B2458;
+    --section1--: #3B2458;
     --Title--: font-size: 40px;
     --Font-style--: Roboto, arial, poppins;
     --seaction2--: #0B0A12;
 }
-.html {
-    scroll-behavior: smooth;   
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -14,13 +16,12 @@ body {
     line-height: 1.6;
 }
 
-
 .Inicio {
     background-color: var(--section1--);
     padding: 0 8%;
     min-height: 647px;
-    color:white;
-    font-size:large;
+    color: white;
+    font-size: large;
 }
 
 .navegacao {
@@ -28,7 +29,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .titulo {
@@ -37,7 +37,7 @@ body {
 
 .links {
     display: flex;
-    gap:40px;
+    gap: 40px;
     list-style: none;
 }
 
@@ -47,17 +47,16 @@ body {
     font-size: 17px;
 }
 
-.link a:hover {
-    color: #C5A7FF
+.links a:hover {
+    color: #C5A7FF;
 }
-
 
 .hero {
     max-width: 650px;
     margin: 100px 0 0;
 }
 
-.hero h2{
+.hero h2 {
     margin-bottom: 20px;
     font-size: 48px;
     line-height: 1.2;
@@ -89,20 +88,21 @@ body {
 
 #servico {
     background-color: var(--seaction2--);
-    min-width: (100%, 1440px);
-    min-height: (100%, 856px);
     padding: 100px 120px 110px 120px;
     min-height: 647px;
-    color:white;
-    font-size:large;
-    
+    color: white;
+    font-size: large;
 }
-.acima_do_titulo, .titulo_1, .descricao_servico {
+
+.acima_do_titulo,
+.titulo_1,
+.descricao_servico {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 15px;
 }
+
 .acima_do_titulo {
     font-size: medium;
     color: #A987E0;
@@ -111,13 +111,13 @@ body {
 }
 
 .titulo_1 {
-    font-size:xx-large;
-    color:white;
+    font-size: xx-large;
+    color: white;
     font-weight: 700;
-    ;
 }
+
 .descricao_servico {
-    font-size:medium;
+    font-size: medium;
     color: #E0D8E8;
     margin-bottom: 30px;
     font-weight: 400;
@@ -125,20 +125,17 @@ body {
 
 .box_container {
     display: grid;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    border-radius: 10%;
     gap: 22px;
     border-radius: 14px;
     margin: 90px;
-    
 }
 
 .titulo_box {
     padding: 10px;
-    display:flex;
+    display: flex;
     align-items: start;
     justify-content: start;
     font-size: 30px;
@@ -153,5 +150,7 @@ body {
     padding: 20px;
     background-color: #3B2458;
     border-radius: 10px;
-    border: 5px solid #A987E0
+    border: 5px solid #A987E0;
+    height: 80%;
+    max-width: (85%, 300px);
 }
