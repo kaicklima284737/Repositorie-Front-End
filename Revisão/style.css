@@ -68,6 +68,9 @@ body {
     color: #E0D8E8;
 }
 
+.tirar_sublinhado {
+    text-decoration: none;
+}
 .btn {
     padding: 14px 25px;
     border: none;
@@ -153,4 +156,225 @@ body {
     border: 5px solid #A987E0;
     height: 80%;
     max-width: (85%, 300px);
+}
+
+#sobre {
+    background-color: #250946;
+    padding: 100px 120px 110px 120px;
+    min-height: 647px;
+    color: white;
+    font-size: large;
+}
+
+.sobre_nos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    font-size: larger;
+}
+
+.texto_conteudo {
+    max-width: 600px;
+}
+
+.texto {
+    color: #C5A7FF;
+    font-weight: 600;
+    padding: 0 0 14px;
+}
+
+.box_2 {
+    background-color: #C5A7FF;
+    min-width: 500px;
+    min-height: 300px;
+    border-radius: 20%;
+}
+
+#clientes {
+    background-color: var(--seaction2--);
+    padding: 100px 120px;
+    color: white;
+}
+
+.clientes_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.box_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #3B2458;
+    border-radius: 12px;
+    border: 3px solid #A987E0;
+}
+
+.avatar_depoimento {
+    width: 40px;
+    height: 40px;
+    background-color: #C5A7FF;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.box_3 span {
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    margin-top: auto;
+}
+
+/* Seção Contato */
+#contato {
+    background-color: var(--section1--);
+    padding: 100px 120px;
+    color: white;
+}
+
+.contato_container {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.box_ilustracao {
+    flex: 1;
+    height: 400px;
+    background: linear-gradient(135deg, #3B2458, #0B0A12);
+    border-radius: 20px;
+    border: 3px solid #A987E0;
+}
+
+.box_formulario {
+    flex: 1;
+    background-color: #3B2458;
+    padding: 40px;
+    border-radius: 12px;
+    border: 3px solid #A987E0;
+}
+
+.box_formulario h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.sub_form {
+    font-size: 14px;
+    color: #E0D8E8;
+    margin-bottom: 25px;
+}
+
+.box_formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.box_formulario label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #C5A7FF;
+}
+
+.box_formulario input,
+.box_formulario textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #0B0A12;
+    border: 2px solid #A987E0;
+    border-radius: 6px;
+    color: white;
+    font-family: var(--Font-style--);
+    font-size: 14px;
+}
+
+.box_formulario input:focus,
+.box_formulario textarea:focus {
+    outline: none;
+    border-color: #C5A7FF;
+}
+
+.box_formulario .btn {
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* Rodapé */
+footer {
+    background-color: #0B0A12;
+    color: white;
+    padding: 60px 120px 30px;
+    border-top: 2px solid #3B2458;
+}
+
+.footer_topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.footer_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo_circulo {
+    width: 35px;
+    height: 35px;
+    background-color: #C5A7FF;
+    border-radius: 50%;
+}
+
+.footer_logo h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer_colunas {
+    display: flex;
+    gap: 60px;
+}
+
+.coluna_footer h4 {
+    font-size: 14px;
+    color: #C5A7FF;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.coluna_footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.coluna_footer ul li a,
+.coluna_footer p {
+    color: #E0D8E8;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.coluna_footer ul li a:hover {
+    color: #C5A7FF;
+}
+
+.footer_bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #3B2458;
+    font-size: 13px;
+    color: #E0D8E8;
 }
