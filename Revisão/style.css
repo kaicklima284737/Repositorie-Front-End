@@ -97,8 +97,7 @@ body {
     font-size: large;
 }
 
-.acima_do_titulo,
-.titulo_1,
+.acima_do_titulo, .titulo_1,
 .descricao_servico {
     display: flex;
     align-items: center;
@@ -139,7 +138,7 @@ body {
 .titulo_box {
     padding: 10px;
     display: flex;
-    align-items: start;
+    align-items:start;
     justify-content: start;
     font-size: 30px;
     font-weight: 700;
@@ -150,10 +149,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 30px;
     background-color: #3B2458;
     border-radius: 10px;
-    border: 5px solid #A987E0;
+    border: 3px solid #A987E0;
     height: 80%;
     max-width: (85%, 300px);
 }
@@ -230,7 +229,6 @@ body {
     margin-top: auto;
 }
 
-/* Seção Contato */
 #contato {
     background-color: var(--section1--);
     padding: 100px 120px;
@@ -307,7 +305,6 @@ body {
     width: 100%;
 }
 
-/* Rodapé */
 footer {
     background-color: #0B0A12;
     color: white;
